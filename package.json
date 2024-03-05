@@ -2,10 +2,11 @@
   "name": "fillout_challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/server.js",
   "scripts": {
-    "start": "nodemon --exec ts-node src/server.ts",
-    "build": "rimraf dist && tsc"
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "rimraf dist && tsc",
+    "start": "dist/server.js"
   },
   "keywords": [],
   "author": "",
